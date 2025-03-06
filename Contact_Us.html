@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: #d1f0d7;
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 50%;
+            margin: auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 5px;
+            border: 1px solid #3c723b;
+            transition: border 0.3s ease-in-out;
+        }
+
+        input:focus,
+        textarea:focus {
+            border: 2px solid #3c6a3b;
+        }
+
+        input[type="button"] {
+            background-color: #2d572c;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        input[type="button"]:hover {
+            background-color: #1e3b1d;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background: mediumseagreen;
+            padding: 10px 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px #669d64;
+            transition: opacity 0.3s;
+        }
+
+        nav ul li a:hover {
+            opacity: 0.8;
+        }
+
+        nav ul li a:active {
+            opacity: 0.5;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Culture.html">culture</a></li>
+            <li><a href="./Landmark.html">Landmarks</a></li>
+            <li><a href="./Cuisine.html">Cuisine</a></li>
+            <li><a href="./Contact_Us.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+
+    <h1>Contect Us</h1>
+
+    <p>
+        Pleace fill out form below for any inquires or to register as a student.
+    </p>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <lable for="Name">First name :</lable>
+        <input type="text" id="name" placeholder="Enter Your first name">
+
+        <br><br>
+
+        <lable for="Password">Password :</lable>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <label for="Gender">Gender :</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+        <br><br>
+
+        <label for="Newsletter">Subscribe to Newsletter :</label>
+        <input type="checkbox">
+
+        <br><br>
+
+        <lable for="state">State:</lable>
+
+        <select>
+
+            <option disabled selected>Select Your State</option>
+            <option>Gujrat</option>
+            <optio>Maharastra</optio>
+            <Option>Rajestan</Option>>
+
+        </select>
+
+        <br><br>
+
+        <lable for="resume">Uplode Resume:</lable>
+        <input id="Resume" type="file">
+
+        <br><br>
+
+        <lable>Address:</lable>
+        <textarea placeholder="Enter your full adress"></textarea>
+
+        <br><br>
+
+        <lable for="dob">Date of Birth:</lable>
+        <link id="dob" type="Date">
+
+        <br><br>
+
+        <lable for="Itime">Preferred Interview Time:</lable>
+        <input id="Itime" type="Time">
+
+        <br><br>
+
+        <lable>Marks:</lable>
+        <input id="Marks" type="number">
+
+        <br><br>
+
+        <input type="button" value="submit">
+        <input type="button" value="Reset">
+
+        <h2>More Information</h2>
+
+        <p>Explore government job opportunities on the ofiicial OJAS website:</p>
+
+        <iframe src="https://ojas.gujarat.gov.in/">
+
+        </iframe>
+
+        <footer>
+
+            <a href="./index.html">←Back to Home</a>
+
+            <p><i>Contact us at <a href="info@incredibleindia.com">info@incredibleindia.com</a></i></p>
+
+            <small> &#169;2025 Incrredible India Project </small>
+
+        </footer>
+
+    </form>
+
+</body>
+
+</html>
